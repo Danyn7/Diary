@@ -1,27 +1,22 @@
 # Diary
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Личный дневник - Diary - web – приложение, в котором можно добавлять, редактировать, удалять записи с форматированным текстом. 
+Реализована возможность прикрепления к записи изображения. 
 
-## Development server
+- Изображения отправляются и хранятся в хранилище firebase.
+- Текстовая информация хранится в localStorage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Действия для сборки
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Перейдите по ссылке: https://github.com/Danyn7/Diary/tree/master
+2. Нажмите зеленую кнопку Code и выберите Download ZIP.
+3. Распакуйте архив и откройте в программе vscode.
+4. С помощью терминала перейдите в папку с проектом.
+5. Наберите в терминале команду npm i
+6. Подождите пока установятся зависимости.
+7. Убедитесь, что у вас установлен AngularCli.
+8. Чтобы запустить приложение в браузере наберите npm start и перейдите по ссылке: http://localhost:4200/
+9. Если хотите собрать проект, наберите команду ng build
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
