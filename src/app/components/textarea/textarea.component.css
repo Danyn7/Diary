@@ -1,0 +1,55 @@
+.textarea__note {
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    min-height: 25vh;
+    max-height: fit-content;
+    background-color: #FFEAD2;
+}
+
+.textarea__note__text {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   justify-content: flex-start;
+}
+
+.textarea__note__image {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea__but {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    margin-top: 1%;
+}
+
+.textarea {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    
+}
+
+.textarea__note__text__notes {
+    margin: 2%;
+}
+
+.textarea__note__text__times {
+    margin: 2%;
+}
+
+.img-url {
+    background-repeat: no-repeat;
+    margin-top: 2%;
+}
+
+.textarea__note__image__content {
+    max-width: 100%;
+    max-height: 100%;
+}

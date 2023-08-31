@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "diary-f0e2f": {
+      "hosting": {
+        "diary": [
+          "diary-f0e2f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "diary-f0e2f"
+  }
+}

@@ -1,0 +1,19 @@
+  <div class="textarea">
+    <div class="textarea__note">
+      <div class="textarea__note__text">
+        <div class="textarea__note__text__times">  {{usernot.time | date:'medium'}}</div>
+        <div class="textarea__note__text__notes" [innerHTML]="usernot.blocks[0].data.text"></div>
+      </div>
+      <div class="textarea__note__image">
+        <div class="textarea__note__image__content">
+          <img max-width="200" height="150" alt="Здесь могла быть картинка" src="{{usernot.blocks[0].data.image}}" class="img-url">
+        </div>
+      </div>
+    </div>
+    <div class="textarea__but">
+      <p-button label="Удалить" (click)="deleteNote($event)" id="{{indexComp}}"></p-button>
+      <p-button label="Выбрать для редактирования" (click)="editNote($event)" id="{{indexComp + 10}}"></p-button>
+    </div> 
+  </div> 
+
+

@@ -1,0 +1,14 @@
+<div class="container__editor__all">
+  <div #editor class="container__editor" [innerHTML]></div>
+  <div class="container__editor__but">
+    <p-button label="Создать" (click)="showEditorData()"></p-button>
+    <p-button label="Отредактировать выбранную заметку" (click)="editNotes()" *ngIf="edit" id="btn-edit"></p-button>
+    <p-button label="Сохранить отредактированное" *ngIf="sendEdit" (click)="sendEditNotes()"></p-button>
+    <label for="fileUpload"></label>
+    <p-fileUpload #fileUpload mode="advanced" chooseLabel="Выбрать картинку" uploadLabel="{{infoFile}}" cancelLabel="Отмена" name="demo[]" [customUpload]="true" (uploadHandler)="uploadFile($event)" [showCancelButton]="false">
+      <ng-template pTemplate="toolbar">
+        <p>{{ sendFile }}</p>
+      </ng-template>  
+    </p-fileUpload>
+  </div>
+</div>
